@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-TW" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appl</title>
+</head>
+<body>
+
+
+<div id="container" tg-name="opacity" tg-ref="container" tg-from="1" tg-to="10" tg-step="1">
+  <span tg-name="opacity" tg-filter="2!" tg-map="2: 1" tg-follow="container">CTPG純正調理認證的doterra精油</span>
+  <span tg-name="opacity" tg-filter="3!" tg-map="3: 1" tg-follow="container">追求純粹pure</span>
+  <span tg-name="opacity" tg-filter="4!" tg-map="4: 1" tg-follow="container">胖達的香氛星球www.pangdafp.com</span>
+  <span tg-name="opacity" tg-filter="5!" tg-map="5: 1" tg-follow="container">pangda's planet</span>
+  <span tg-name="opacity" tg-filter="6!" tg-map="6: 1" tg-follow="container">iPhone 13 Pro</span>
+  <span class="pro" tg-name="opacity" tg-filter="6,7" tg-map="6: 0.3; 7: 1" tg-follow="container">Let's Go.</span>
+
+</div>
+
+<div class="all">
+
+  <div class="check" align="center">
+    <input type="checkbox" checked>
+    <svg width="400" height="400">
+      <circle fill="none" stroke="#40D441" stroke-width="20" cx="200" cy="200" r="190" class="circle" stroke-linecap="round" transform="rotate(-90 200 200)" />
+      <polyline fill="none" stroke="#40D441" stroke-width="24" points="88,214 173,284 304,138" stroke-linecap="round" stroke-linejoin="round" class="tick" />
+    </svg>
+    <h2>PFP認證</h2>
+  </div>
+
+</div>
+<script src="//unpkg.com/@triggerjs/trigger" defer></script>
+
+<style>
+@keyframes tick {
+  from {
+    stroke-dashoffset: 350;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* .po{
+  background-color: white;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px;
+  transform: center;
+  }
+
+.po h3{
+  color: transparent;
+} */
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .container span {
+    font-size: 40px;
+  }
+}
+</style>
+
+
+</body>
